@@ -45,9 +45,6 @@
 
   <!-- For a multi arm setup, we need a threaded robot running async-->
   <xacro:arg name="multi_arm" default="false" />
-
-  <!-- For multi-robot ros2_control, you may wish to add a prefix to links and joints -->
-  <xacro:arg name="arm_prefix" default=""/>
   
   <!-- Append an underscore to the user-provided prefix, if non-empty. -->
   <xacro:property name="prefix" value="$(arg arm_prefix)"/>
