@@ -10,6 +10,9 @@
   -->
   <xacro:arg name="arm_id" default="fr3" />
 
+  <!-- The prefix of the robot -->
+  <xacro:arg name="arm_prefix" default="" />
+
   <!-- Don't print a prefix for joints, visuals, and links? -->
   <xacro:arg name="no_prefix" default="false"/>
 
